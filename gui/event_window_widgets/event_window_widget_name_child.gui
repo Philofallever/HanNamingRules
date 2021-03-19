@@ -153,6 +153,7 @@ vbox = {
 		}
 		## 汉族命名法
 		event_button_round = {
+            ## 实现思路，script effect触发后设置一个变量=>然后获取变量 =>设置名字
 			onclick = "[GetVariableSystem.Toggle( 'family_members_options_open' )]"
 			tooltip =  "以辈分命名"
 			using = tooltip_se
