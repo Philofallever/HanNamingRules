@@ -76,13 +76,6 @@ vbox = {
 			text = "event_window_widget_name_child_after_mothers_mother"
 			onclick = "[EventWindowWidgetNameCharacter.SetCurrentNameCultural( Character.GetMother.GetMother.GetFirstNameBase )]"
 		}
-
-		event_widget_name_child_option = {
-			visible = "[And( Character.IsFemale, Character.GetMother.GetMother.IsValid )]"
-			text = "event_window_widget_name_child_after_mothers_mother"
-			onclick = "[EventWindowWidgetNameCharacter.SetCurrentNameCultural( Character.GetMother.GetMother.GetFirstNameBase )]"
-		}
-
 	}
 
 	hbox = {
@@ -127,27 +120,7 @@ vbox = {
 				parentanchor = center
 			}
 		}
-    	
-        ## 汉族命名法
-		event_button_round = {
-            ## 实现思路，script effect触发后设置一个变量=>然后获取变量 =>设置名字
-			## onclick = "[GetVariableSystem.Toggle( 'family_members_options_open' )]"
-            onclick = "[EventWindowWidgetNameCharacter.SetCurrentName("event_window_widget_name_child_random_cultural_name")
-			tooltip =  "以辈分命名"
-			using = tooltip_se
 	
-			highlight_icon = {
-				name = "heir_icon"
-				size = { 32 32 }
-				parentanchor = center
-				# texture = "gfx/interface/icons/icon_opinion.dds"
-				# texture = "gfx/interface/icons/portraits/me.dds"
-				texture = "gfx/interface/icons/portraits/heir.dds"
-				framesize = { 40 40 }
-				frame = "3"
-			}
-		}
-
 		hbox = {
 			layoutpolicy_vertical = expanding
 			margin = { 5 0 }
@@ -170,6 +143,24 @@ vbox = {
 				framesize = { 40 40 }
 				frame = "3"
 			}
+		}	
+		## 汉族命名法
+		event_button_round = {
+            onclick = "[GetScriptedGui('han_naming_rules').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+            # onclick = "[EventWindowWidgetNameCharacter.SetCurrentName(GetPlayer.MakeScope.Var('random_name').GetFlagName)]"
+            onclick = "[EventWindowWidgetNameCharacter.SetCurrentName('asda')]"
+            onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
+            tooltip =  "汉族辈分命名法"
+            using = tooltip_se
+
+            highlight_icon = {
+                name = "heir_icon"
+                size = { 32 32 }
+                parentanchor = center
+                texture = "gfx/interface/icons/portraits/heir.dds"
+                framesize = { 40 40 }
+                frame = "3"
+            }
 		}
 	}
 }
