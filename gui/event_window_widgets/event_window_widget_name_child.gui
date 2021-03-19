@@ -127,10 +127,30 @@ vbox = {
 				parentanchor = center
 			}
 		}
+    	
+        ## 汉族命名法
+		event_button_round = {
+            ## 实现思路，script effect触发后设置一个变量=>然后获取变量 =>设置名字
+			## onclick = "[GetVariableSystem.Toggle( 'family_members_options_open' )]"
+            onclick = "[EventWindowWidgetNameCharacter.SetCurrentName("event_window_widget_name_child_random_cultural_name")
+			tooltip =  "以辈分命名"
+			using = tooltip_se
 	
+			highlight_icon = {
+				name = "heir_icon"
+				size = { 32 32 }
+				parentanchor = center
+				# texture = "gfx/interface/icons/icon_opinion.dds"
+				# texture = "gfx/interface/icons/portraits/me.dds"
+				texture = "gfx/interface/icons/portraits/heir.dds"
+				framesize = { 40 40 }
+				frame = "3"
+			}
+		}
+
 		hbox = {
 			layoutpolicy_vertical = expanding
-			margin = { 10 0 }
+			margin = { 5 0 }
 			
 			divider_light = {
 				layoutpolicy_vertical = expanding
@@ -151,25 +171,6 @@ vbox = {
 				frame = "3"
 			}
 		}
-		## 汉族命名法
-		event_button_round = {
-            ## 实现思路，script effect触发后设置一个变量=>然后获取变量 =>设置名字
-			onclick = "[GetVariableSystem.Toggle( 'family_members_options_open' )]"
-			tooltip =  "以辈分命名"
-			using = tooltip_se
-	
-			highlight_icon = {
-				name = "heir_icon"
-				size = { 32 32 }
-				parentanchor = center
-				# texture = "gfx/interface/icons/icon_opinion.dds"
-				# texture = "gfx/interface/icons/portraits/me.dds"
-				texture = "gfx/interface/icons/portraits/heir.dds"
-				framesize = { 40 40 }
-				frame = "3"
-			}
-		}
-		
 	}
 }
 
