@@ -2,60 +2,70 @@ han_naming_rules = {
 	scope = character
 	effect = {
 		set_variable = {
-			name = m1
-			value = flag:光
-		}
-		set_variable = {
-			name = m2
-			value = flag:明
-		}
-		set_variable = {
-			name = m3
-			value = flag:伟
-		}
-		set_variable = {
-			name = m4
-			value = flag:军
-		}
-		set_variable = {
-			name = m5
-			value = flag:建
-		}
-		set_variable = {
-			name = m6
-			value = flag:华
-		}
-		add_to_varible_list = {
-			name = han_name_list
-			target = var:m1
-		}
-		add_to_varible_list = {
-			name = han_name_list
-			target = var:m2
-		}
-		add_to_varible_list = {
-			name = han_name_list
-			target = var:m3
-		}
-		add_to_varible_list = {
-			name = han_name_list
-			target = var:m4
-		}
-		add_to_varible_list = {
-			name = han_name_list
-			target = var:m5
-		}
-		add_to_varible_list = {
-			name = han_name_list
-			target = var:m6
-		}
-		random_in_varible_list = {
-			varible = han_name_list
-			set_varible = {
-				name = random_name
-				value = prev
-			}
-		}
+            name= "good_guy_name"
+            value = flag:good_guy_name
+        }
+
+		# set_variable = {
+		# 	name = m1
+		# 	value = flag:光
+		# }
+		# set_variable = {
+		# 	name = m2
+		# 	value = flag:明
+		# }
+		# set_variable = {
+		# 	name = m3
+		# 	value = flag:伟
+		# }
+		# set_variable = {
+		# 	name = m4
+		# 	value = flag:军
+		# }
+		# set_variable = {
+		# 	name = m5
+		# 	value = flag:建
+		# }
+		# set_variable = {
+		# 	name = m6
+		# 	value = flag:华
+		# }
+		# add_to_varible_list = {
+		# 	name = han_name_list
+		# 	target = var:m1
+		# }
+		# add_to_varible_list = {
+		# 	name = han_name_list
+		# 	target = var:m2
+		# }
+		# add_to_varible_list = {
+		# 	name = han_name_list
+		# 	target = var:m3
+		# }
+		# add_to_varible_list = {
+		# 	name = han_name_list
+		# 	target = var:m4
+		# }
+		# add_to_varible_list = {
+		# 	name = han_name_list
+		# 	target = var:m5
+		# }
+		# add_to_varible_list = {
+		# 	name = han_name_list
+		# 	target = var:m6
+		# }
+		# # random_in_varible_list = {
+		# # 	varible = han_name_list
+		# # 	set_varible = {
+		# # 		name = random_name
+		# # 		value = prev
+		# # 	}
+		# # }
+
+		# set_varible = {
+		# 	name = random_name
+		# 	value = flag:222222
+		# }
 	}
 }
 
