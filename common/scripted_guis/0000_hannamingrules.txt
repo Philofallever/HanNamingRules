@@ -1969,12 +1969,12 @@ han_naming_rules = {
 			}
 		}
 		### 男孩名字 END
-		
+		################################ 
 		random_in_list = {
 			variable = han_name_list
 			root = {
 				set_variable = {
-					name = "good_guy_name"
+					name = good_guy_name
 					value = prev
 				}
 			}
