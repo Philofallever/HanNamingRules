@@ -1,70 +1,1986 @@
 han_naming_rules = {
 	scope = character
 	effect = {
-		set_variable = {
-            name= "good_guy_name"
-            value = flag:good_guy_name
-        }
-
+		### 女孩名字 BEGIN
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv1
+				value = flag:梦琪
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv1
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv2
+				value = flag:忆柳
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv2
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv3
+				value = flag:之桃
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv3
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv4
+				value = flag:慕青
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv4
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv5
+				value = flag:问兰
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv5
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv6
+				value = flag:尔岚
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv6
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv7
+				value = flag:元香
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv7
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv8
+				value = flag:初夏
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv8
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv9
+				value = flag:沛菡
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv9
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv10
+				value = flag:傲珊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv10
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv11
+				value = flag:曼文
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv11
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv12
+				value = flag:乐菱
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv12
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv13
+				value = flag:痴珊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv13
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv14
+				value = flag:恨玉
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv14
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv15
+				value = flag:惜文
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv15
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv16
+				value = flag:香寒
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv16
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv17
+				value = flag:新柔
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv17
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv18
+				value = flag:语蓉
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv18
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv19
+				value = flag:海安
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv19
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv20
+				value = flag:夜蓉
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv20
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv21
+				value = flag:涵柏
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv21
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv22
+				value = flag:水桃
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv22
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv23
+				value = flag:醉蓝
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv23
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv24
+				value = flag:春儿
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv24
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv25
+				value = flag:语琴
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv25
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv26
+				value = flag:从彤
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv26
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv27
+				value = flag:傲晴
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv27
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv28
+				value = flag:语兰
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv28
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv29
+				value = flag:又菱
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv29
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv30
+				value = flag:碧彤
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv30
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv31
+				value = flag:元霜
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv31
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv32
+				value = flag:怜梦
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv32
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv33
+				value = flag:紫寒
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv33
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv34
+				value = flag:妙彤
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv34
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv35
+				value = flag:曼易
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv35
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv36
+				value = flag:南莲
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv36
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv37
+				value = flag:紫翠
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv37
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv38
+				value = flag:雨寒
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv38
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv39
+				value = flag:易烟
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv39
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv40
+				value = flag:如萱
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv40
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv41
+				value = flag:若南
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv41
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv42
+				value = flag:寻真
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv42
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv43
+				value = flag:晓亦
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv43
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv44
+				value = flag:向珊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv44
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv45
+				value = flag:慕灵
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv45
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv46
+				value = flag:以蕊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv46
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv47
+				value = flag:寻雁
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv47
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv48
+				value = flag:映易
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv48
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv49
+				value = flag:雪柳
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv49
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv50
+				value = flag:孤岚
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv50
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv51
+				value = flag:笑霜
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv51
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv52
+				value = flag:海云
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv52
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv53
+				value = flag:凝天
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv53
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv54
+				value = flag:沛珊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv54
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv55
+				value = flag:寒云
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv55
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv56
+				value = flag:冰旋
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv56
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv57
+				value = flag:宛儿
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv57
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv58
+				value = flag:绿真
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv58
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv59
+				value = flag:盼儿
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv59
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv60
+				value = flag:晓霜
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv60
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv61
+				value = flag:碧凡
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv61
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv62
+				value = flag:夏菡
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv62
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv63
+				value = flag:曼香
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv63
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv64
+				value = flag:若烟
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv64
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv65
+				value = flag:半梦
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv65
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv66
+				value = flag:雅绿
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv66
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv67
+				value = flag:冰蓝
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv67
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv68
+				value = flag:灵槐
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv68
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv69
+				value = flag:平安
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv69
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv70
+				value = flag:书翠
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv70
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv71
+				value = flag:翠风
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv71
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv72
+				value = flag:香巧
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv72
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv73
+				value = flag:代云
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv73
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv74
+				value = flag:梦曼
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv74
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv75
+				value = flag:幼翠
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv75
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv76
+				value = flag:友巧
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv76
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv77
+				value = flag:听寒
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv77
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv78
+				value = flag:梦柏
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv78
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv79
+				value = flag:醉易
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv79
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv80
+				value = flag:访旋
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv80
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv81
+				value = flag:亦玉
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv81
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv82
+				value = flag:凌萱
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv82
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv83
+				value = flag:访卉
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv83
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv84
+				value = flag:怀亦
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv84
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv85
+				value = flag:笑蓝
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv85
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv86
+				value = flag:春翠
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv86
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv87
+				value = flag:靖柏
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv87
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv88
+				value = flag:夜蕾
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv88
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv89
+				value = flag:冰夏
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv89
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv90
+				value = flag:梦松
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv90
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv91
+				value = flag:书雪
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv91
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv92
+				value = flag:乐枫
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv92
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv93
+				value = flag:念薇
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv93
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv94
+				value = flag:靖雁
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv94
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv95
+				value = flag:寻春
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv95
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv96
+				value = flag:恨山
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv96
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv97
+				value = flag:从寒
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv97
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv98
+				value = flag:忆香
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv98
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv99
+				value = flag:觅波
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv99
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			set_variable = {
+				name = nv100
+				value = flag:静曼
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv100
+			}
+		}
+		### 女孩名字 END 
+		### 男孩名字 BEGIN
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nv1
+				value = flag:海纳
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nv1
+			}
+		}
+		### 男孩名字 BEGIN
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan1
+				value = flag:致远
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan1
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan2
+				value = flag:俊驰
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan2
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan3
+				value = flag:雨泽
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan3
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan4
+				value = flag:烨磊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan4
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan5
+				value = flag:晟睿
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan5
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan6
+				value = flag:天佑
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan6
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan7
+				value = flag:文昊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan7
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan8
+				value = flag:修洁
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan8
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan9
+				value = flag:黎昕
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan9
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan10
+				value = flag:远航
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan10
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan11
+				value = flag:旭尧
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan11
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan12
+				value = flag:鸿涛
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan12
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan13
+				value = flag:伟祺
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan13
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan14
+				value = flag:荣轩
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan14
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan15
+				value = flag:越泽
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan15
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan16
+				value = flag:浩宇
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan16
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan17
+				value = flag:瑾瑜
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan17
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan18
+				value = flag:皓轩
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan18
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan19
+				value = flag:擎苍
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan19
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan20
+				value = flag:擎宇
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan20
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan21
+				value = flag:志泽
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan21
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan22
+				value = flag:子轩
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan22
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan23
+				value = flag:睿渊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan23
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan24
+				value = flag:弘文
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan24
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan25
+				value = flag:哲瀚
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan25
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan26
+				value = flag:雨泽
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan26
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan27
+				value = flag:楷瑞
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan27
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan28
+				value = flag:建辉
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan28
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan29
+				value = flag:晋鹏
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan29
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan30
+				value = flag:天磊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan30
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan31
+				value = flag:绍辉
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan31
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan32
+				value = flag:泽洋
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan32
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan33
+				value = flag:鑫磊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan33
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan34
+				value = flag:鹏煊
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan34
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan35
+				value = flag:昊强
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan35
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan36
+				value = flag:伟宸
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan36
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan37
+				value = flag:博超
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan37
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan38
+				value = flag:君浩
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan38
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan39
+				value = flag:子骞
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan39
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan40
+				value = flag:鹏涛
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan40
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan41
+				value = flag:炎彬
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan41
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan42
+				value = flag:鹤轩
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan42
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan43
+				value = flag:越彬
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan43
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan44
+				value = flag:风华
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan44
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan45
+				value = flag:靖琪
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan45
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan46
+				value = flag:明辉
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan46
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan47
+				value = flag:伟诚
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan47
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan48
+				value = flag:明轩
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan48
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan49
+				value = flag:健柏
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan49
+			}
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			set_variable = {
+				name = nan50
+				value = flag:修杰
+			}
+			add_to_variable_list = {
+				name = han_name_list
+				target = var:nan50
+			}
+		}
+		### 男孩名字 END
+		random_in_list = {
+			variable = han_name_list
+			root = {
+				set_variable = {
+					name = "good_guy_name"
+					value = prev
+				}
+			}
+		}
 		# set_variable = {
-		# 	name = m1
-		# 	value = flag:光
-		# }
-		# set_variable = {
-		# 	name = m2
-		# 	value = flag:明
-		# }
-		# set_variable = {
-		# 	name = m3
-		# 	value = flag:伟
-		# }
-		# set_variable = {
-		# 	name = m4
-		# 	value = flag:军
-		# }
-		# set_variable = {
-		# 	name = m5
-		# 	value = flag:建
-		# }
-		# set_variable = {
-		# 	name = m6
-		# 	value = flag:华
-		# }
-		# add_to_varible_list = {
-		# 	name = han_name_list
-		# 	target = var:m1
-		# }
-		# add_to_varible_list = {
-		# 	name = han_name_list
-		# 	target = var:m2
-		# }
-		# add_to_varible_list = {
-		# 	name = han_name_list
-		# 	target = var:m3
-		# }
-		# add_to_varible_list = {
-		# 	name = han_name_list
-		# 	target = var:m4
-		# }
-		# add_to_varible_list = {
-		# 	name = han_name_list
-		# 	target = var:m5
-		# }
-		# add_to_varible_list = {
-		# 	name = han_name_list
-		# 	target = var:m6
-		# }
-		# # random_in_varible_list = {
-		# # 	varible = han_name_list
-		# # 	set_varible = {
-		# # 		name = random_name
-		# # 		value = prev
-		# # 	}
-		# # }
-
-		# set_varible = {
-		# 	name = random_name
-		# 	value = flag:222222
+		# 	name = "good_guy_name"
+		# 	value = flag:光sxsas
 		# }
 	}
 }
