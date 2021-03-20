@@ -146,8 +146,9 @@ vbox = {
 		}	
 		## 汉族命名法
 		event_button_round = {
-            onclick = "[GetScriptedGui('han_naming_rules').Execute( GuiScope.SetRoot( Character.MakeScope ).End )]"
-            onclick = "[EventWindowWidgetNameCharacter.SetCurrentName(Character.MakeScope.Var('good_guy_name').GetFlagName)]"
+            # onclick = "[GetScriptedGui('han_naming_rules').Execute( GuiScope.SetRoot( Character.MakeScope ).End )]"
+            # onclick = "[EventWindowWidgetNameCharacter.SetCurrentName(Concatenate(Character.GetDynastyHouseName,EventWindowWidgetNameCharacter.GetRandomAvailableCultureName))]"
+			onclick = "[EventWindowWidgetNameCharacter.SetCurrentName(Concatenate(Localize(Character.GetDynastyHouseNameNoTooltip),Localize(EventWindowWidgetNameCharacter.GetRandomAvailableCultureName)))]"
             # onclick = "[EventWindowWidgetNameCharacter.SetCurrentName('asda')]"
             onclick = "[PdxGuiTriggerAllAnimations('name_refresh')]"
             tooltip =  "汉族辈分命名法"
